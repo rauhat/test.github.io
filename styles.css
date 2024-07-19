@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Для центрирования по вертикали на всю высоту экрана */
+}
+
+.container {
+    text-align: center;
+}
+
+
+#start-test-btn {
+    padding: 15px 30px; /* Увеличиваем отступы кнопки */
+    font-size: 18px; /* Увеличиваем размер шрифта кнопки */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#start-test-btn:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+#quiz-controls {
+    margin-top: 20px;
+    text-align: middle; /* Выравниваем элементы управления по правому краю */
+}
+
+#quiz-controls button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#quiz-controls button:hover {
+    background-color: #0056b3;
+}
+
+#quiz-form {
+    text-align: right; /* Выравниваем вопросы теста по правому краю */
+}
+
+.question {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Выравниваем текст вопроса по левому краю внутри блока */
+}
+
+.question p {
+    margin-bottom: 10px;
+}
